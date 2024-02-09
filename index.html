@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-top"></div>
+            <div class="header-middle">
+                <div class="logo"></div>
+                <div class="menu-icon">
+                    <i class="fas fa-bars" onclick="toggleMenu()"></i>
+
+                </div>
+
+                <nav class="navbar">
+                    <ul>
+                        <li>
+                            <a id="btn-scroll-top-home">Home page</a>
+                        </li>
+                        <li>
+                            <a id="btn-about" href="#about">About me</a>
+                        </li>
+                        <li>
+                            <a id="btn-services" href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a id="btn-projects" href="#projects">Projects</a>
+                        </li>
+                        <li>
+                            <a id="btn-feedback" href="#feedback">Feedback</a>
+                        </li>
+                        <li>
+                            <a id="btn-contact" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="effect-banner-top-left">
+            <img src="./images/effect1.png" alt="">
+        </div>
+        <div class="container">
+            <div class="banner-content row">
+                <div class="banner-content-left col-5">
+                    <span>I'm</span>
+                    <h1>Kieu Thi Bang Bang</h1>
+                    <div class="typewriter mt-2">
+                        <h3>Designer & Development.</h3>
+                    </div>
+                    <!-- <div class="text-custom">Development</div> -->
+                    <a class="btn" href="./mycv.pdf" target="_blank">View my CV</a>
+                </div>
+                <div class="banner-content-right col-7">
+                    <img src="./images/avt2.png" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="about" id="about">
+        <div class="effect1">
+            <img src="./images/el6.png" alt="">
+        </div>
+        <div class="container ">
+            <h3 class="">About Me</h3>
+            <div class="row about-content animate">
+                <div class="col-6 about-content-img">
+                    <img src="./images/about.jpg" alt="">
+                </div>
+                <div class="col-6 p1">
+
+                    <div class="description">
+                        <p>
+                            I'm Bang Bang, a passionate and innovative Website Design enthusiast. Currently enrolled as
+                            a 2nd year IT student, I thrive on bringing creative visions to life through thoughtful
+                            and user-centric designs. Proficient in HTML, CSS, and JavaScript, I enjoy crafting visually
+                            appealing and seamlessly functional websites.
+                        </p>
+                        <p class="mt-1">
+                            My journey involves hands-on experience in UI/UX design and optimizing web performance for
+                            optimal user interaction. Each project I undertake is a testament to my commitment to
+                            staying current with industry trends and delivering modern, captivating digital experiences.
+                        </p>
+                        <!-- <p class="mt-1">Join me on this exciting journey through my portfolio, where I showcase my dedication to
+                            creating engaging web solutions that leave a lasting impact. Let's connect and explore the
+                            endless possibilities of web design together.</p> -->
+                    </div>
+
+                    <a class="btn" href="./about.html">Read more</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="effect2">
+            <img src="./images/el1.png" alt="">
+        </div>
+        <div class="container">
+            <h3>My Services</h3>
+
+            <div class="row services-box animate">
+                <div class="col-6 p1">
+                    <div class="row services-item">
+                        <div class="col-3 services-item-img">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="col-9 services-item-content">
+                            <h4>Front-end</h4>
+                            <span>Start from
+                                <strong class="text-secondary">$199.0</strong>
+                            </span>
+                            <p>Transforming ideas into captivating web experiences. Specializing in Front-End
+                                development with expertise in HTML, CSS, and JavaScript for visually compelling and
+                                responsive websites
+                                .</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 p1">
+                    <div class="row services-item">
+                        <div class="col-3 services-item-img">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="col-9 services-item-content">
+                            <h4>Back-end</h4>
+                            <span>Start from
+                                <strong class="text-secondary">$299.0</strong>
+                            </span>
+                            <p>
+                                Elevate your online presence with my Back-End expertise. I specialize in creating
+                                secure, dynamic web solutions tailored to your needs, utilizing server-side languages
+                                and efficient database management.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6 p1">
+                    <div class="row services-item">
+                        <div class="col-3 services-item-img">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="col-9 services-item-content">
+                            <h4>UI/UX</h4>
+                            <span>Start from
+                                <strong class="text-secondary">$99.0</strong>
+                            </span>
+                            <p>Crafting seamless digital experiences with my UI/UX services. From intuitive interfaces
+                                to user-centric designs, I elevate your brand through compelling visuals and enhanced
+                                user interactions.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6 p1">
+                    <div class="row services-item">
+                        <div class="col-3 services-item-img">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <div class="col-9 services-item-content">
+                            <h4>Cloud Services</h4>
+                            <span>Start from
+                                <strong class="text-secondary">$599.0</strong>
+                            </span>
+                            <p>
+
+                                Enhance efficiency with my Cloud solutions. I design secure, scalable systems, utilizing
+                                cloud tech for seamless data management, ensuring your digital infrastructure meets
+                                modern demands.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="portfolio projects" id="projects">
+
+        <h3>My Projects</h3>
+        <main class="mainContainer mt-3 animate">
+
+            <!--  *****  Buttons Section Starts  *****  -->
+            <div class="button-group">
+                <button class="button active" data-filter="*">All</button>
+                <button class="button" data-filter=".design">Design</button>
+                <button class="button" data-filter=".javascript">JavaScript</button>
+                <button class="button" data-filter=".full-stack">Full-stack</button>
+                <button class="button" >
+                    <a href="./projects.html">
+                        My practical exercise
+                    </a>
+                </button>
+            </div>
+
+            <div class="gallery">
+
+                <div class="item design">
+                    <img src="./images/project6.png">
+                    <div class="overlay">
+                        <a id="btn-scroll-top-2">VIEW MORE</a>
+                    </div>
+                </div>
+
+                <div class="item design">
+                    <img src="./images/project2.png">
+                    <div class="overlay">
+                        <a href="./project/bai1.html" target="_blank">VIEW MORE</a>
+                    </div>
+                </div>
+
+                <div class="item javascript">
+                    <img src="./images/project1.png">
+                    <div class="overlay">
+                        <a href="./project/b6b5.html" target="_blank">VIEW MORE</a>
+                    </div>
+                </div>
+
+                <div class="item javascript">
+                    <img src="./images/project3.png">
+                    <div class="overlay">
+                        <a href="./project/b6b4.js" target="_blank">VIEW MORE</a>
+                    </div>
+                </div>
+
+                <div class="item design">
+                    <img src="./images/project5.png">
+                    <div class="overlay">
+                        <a href="./project/b1.html" target="_blank">VIEW MORE</a>
+                    </div>
+                </div>
+
+                <div class="item full-stack">
+                    <img src="./images/project4.jpg">
+                    <div class="overlay">
+                        <a href="https://blog-react-ts-psi.vercel.app" target="_blank">VIEW MORE</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+
+    </section>
+
+
+    <section class="feedback" id="feedback">
+        <h3>Our Customer Feedback</h3>
+        <div id="form-list" class="animate">
+            <div id="list">
+
+
+                <div class="feedback-item ">
+                    <img src="./images/user1.jpg" alt="" class="avatar">
+                    <div class="content">
+                        <div class="name">
+                            <span>John Smith</span>
+                        </div>
+                        <p>"Exceptional work! Completed our project ahead of schedule, and the results exceeded
+                            expectations. Highly recommend!"</p>
+                    </div>
+                </div>
+
+                <div class="feedback-item">
+                    <img src="./images/user2.jpg" alt="" class="avatar">
+                    <div class="content">
+                        <div class="name">
+                            <span>Jessica</span>
+                        </div>
+                        <p>"Outstanding creativity and professionalism. Transformed our vision into a stunning reality.
+                            A pleasure to work with!"</p>
+                    </div>
+                </div>
+
+
+                <div class="feedback-item">
+                    <img src="./images/user3.jpg" alt="" class="avatar">
+                    <div class="content">
+                        <div class="name">
+                            <span>Catalina</span>
+                        </div>
+                        <p>"Reliable and efficient. Delivered a user-friendly website that perfectly aligns with our
+                            brand. Great communication throughout!"</p>
+                    </div>
+                </div>
+
+
+                <div class="feedback-item">
+                    <img src="./images/user4.jpg" alt="" class="avatar">
+                    <div class="content">
+                        <div class="name">
+                            <span>Marry Dee</span>
+                        </div>
+                        <p>"Exemplary skills in backend development. Created a robust system with excellent performance.
+                            Couldn't be happier."</p>
+                    </div>
+                </div>
+
+
+
+                <div class="feedback-item">
+                    <img src="./images/user5.jpg" alt="" class="avatar">
+                    <div class="content">
+                        <div class="name">
+                            <span>Wick Johnathan</span>
+                        </div>
+                        <p>"Efficient cloud solutions! Streamlined our processes and improved accessibility. A true
+                            asset to our project."</p>
+                    </div>
+                </div>
+
+
+                <div class="feedback-item ">
+                    <img src="./images/user1.jpg" alt="" class="avatar">
+                    <div class="content">
+                        <div class="name">
+                            <span>John Smith</span>
+                        </div>
+                        <p>"Exceptional work! Completed our project ahead of schedule, and the results exceeded
+                            expectations. Highly recommend!"</p>
+                    </div>
+                </div>
+
+                <div class="feedback-item">
+                    <img src="./images/user2.jpg" alt="" class="avatar">
+                    <div class="content">
+                        <div class="name">
+                            <span>Jessica</span>
+                        </div>
+                        <p>"Outstanding creativity and professionalism. Transformed our vision into a stunning reality.
+                            A pleasure to work with!"</p>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="derection">
+                <button id="prev">
+                    <i class="fa-solid fa-angle-left"></i> </button>
+                <button id="next">
+                    <i class="fa-solid fa-angle-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="effect2">
+            <img src="./images/el1.png" alt="" style="top: -2em;">
+        </div>
+        <div class="container">
+            <h3>Contact</h3>
+
+            <div class="row contact-box animate">
+
+                <div class="col-6 contact-content">
+                    <h4>Let's Work Together.</h4>
+                    <div class="contact-content-item">
+                        <div class="title">
+                            Address:
+                        </div>
+                        <div class="value">
+                            <span>98 Duong Quang Ham street, Cau Giay District, Ha Noi city</span>
+                        </div>
+
+                    </div>
+                    <div class="contact-content-item">
+                        <div class="title">
+                            Phone number:
+                        </div>
+                        <div class="value">
+                            <span>096.123.456</span>
+                        </div>
+
+                    </div>
+                    <div class="contact-content-item">
+                        <div class="title">
+                            Email:
+                        </div>
+                        <div class="value">
+                            <span>bangbang2002@gmail.com</span>
+                        </div>
+
+                    </div>
+                    <div class="btn-group">
+                        <div class="title">Follow me:</div>
+                        <div class="btns">
+                            <div class="btn-link">
+                                <a class="fa-brands fa-facebook"></a>
+                            </div>
+                            <div class="btn-link">
+                                <a class="fa-brands fa-github"></a>
+                            </div>
+                            <div class="btn-link">
+                                <a class="fa-brands fa-youtube"></a>
+                            </div>
+                            <div class="btn-link">
+                                <a class="fa-brands fa-linkedin"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-6 contact-form">
+                    <span> I'm eager to hear from you! Feel free to share your thoughts, questions, or ongoing projects.
+                        I'm ready to collaborate and contribute to your success. Don't hesitate to reach out; I'm always
+                        here to listen and support. Fill out the form below or send an email directly. Thank you for
+                        visiting, and I'll get back to you as soon as possible!</span>
+
+
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <input id="name" type="text" placeholder="Your name...">
+                        </div>
+                        <div class="col-6">
+                            <input id="email" type="text" placeholder="Your email...">
+                        </div>
+                    </div>
+                    <div style="padding:10px 5px;">
+                        <input id="title" type="text" placeholder="Title...">
+                    </div>
+                    <div style="padding:10px 5px;">
+                        <textarea id="content" placeholder="Content..."></textarea>
+                    </div>
+
+                    <div class="btn" style="margin-left: 5px;" onclick="submitForm()">Submit</div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+    <footer>
+        <span>Design by Kieu Thi Bang Bang - 30INF027_CNTT D2022 2</span>
+    </footer>
+
+
+    <button id="scroll-top-btn">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- import script -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+    <script src="./js.js"></script>
+
+    <script>
+        function submitForm() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const title = document.getElementById('title').value;
+            const content = document.getElementById('content').value;
+
+            const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(title)}&body=${encodeURIComponent(`Name: ${name}%0D%0AContent: ${content}`)}`;
+
+            // Mở ứng dụng email
+            window.location.href = mailtoLink;
+        }
+
+
+        function toggleMenu() {
+            const nav = document.querySelector('nav');
+            nav.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
